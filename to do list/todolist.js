@@ -32,7 +32,7 @@ document.querySelector('#push').onclick = function () {
             let checkbutton = checked_tasks[i].querySelector('.check')
             checkbutton.onclick = function () {
                 if (!checked) {
-                    checked_tasks[i].style.backgroundColor = '#1dd320';
+                    checked_tasks[i].style.backgroundColor = '#c5e1c3';
                 } else {
                     checked_tasks[i].style.backgroundColor = '#c5e1e6';
                 }
